@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171044460849",
+    "firebase_url": "https://geofire2-9bccb.firebaseio.com",
+    "project_id": "geofire2-9bccb",
+    "storage_bucket": "geofire2-9bccb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171044460849:android:38303a854f0e2079a0b810",
+        "android_client_info": {
+          "package_name": "etn.app.danghoc.geofire2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171044460849-qtrofauc35l2gelit3nmm70tcgisbtpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "etn.app.danghoc.geofire2",
+            "certificate_hash": "fd33fe245bb2ee39d12c2dce03cba24dba048537"
+          }
+        },
+        {
+          "client_id": "171044460849-d4nurukaof6lebvcgdrrn05n0f156kdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmcbWEkIC-7WA4s8QPYb4ubgVHX6SsuwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171044460849-d4nurukaof6lebvcgdrrn05n0f156kdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='AsyncTaks_LoadImage'
+include ':app'

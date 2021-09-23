@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5sp"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="5sp"
+    android:layout_marginBottom="5sp"
+    app:cardCornerRadius="9dp"
+    android:id="@+id/item_recy"
+
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtDayStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContent"
+            android:text="@string/dayStart"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txtDaySuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContent"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/txtDayStart"
+            android:text="@string/dayEnd"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txtProcess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDayStart"
+            android:layout_centerHorizontal="true"
+            android:text="@string/process"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

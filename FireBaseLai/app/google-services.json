@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "517738870450",
+    "firebase_url": "https://fir-lai-96303.firebaseio.com",
+    "project_id": "fir-lai-96303",
+    "storage_bucket": "fir-lai-96303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517738870450:android:ad3f6b2664dc797d1b3bab",
+        "android_client_info": {
+          "package_name": "etn.app.danghoc.firebaselai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517738870450-61ivj0q6si26835hfsj7ljn3uab12308.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "etn.app.danghoc.firebaselai",
+            "certificate_hash": "fd33fe245bb2ee39d12c2dce03cba24dba048537"
+          }
+        },
+        {
+          "client_id": "517738870450-k1cj31di9ij5lqu7bgr1pj5gdg4n17h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxoGFdPn45YRVrUSTYNCHfv7gbuVN6iIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517738870450-k1cj31di9ij5lqu7bgr1pj5gdg4n17h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

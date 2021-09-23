@@ -1,0 +1,2 @@
+rootProject.name='JSONArrayObject'
+include ':app'

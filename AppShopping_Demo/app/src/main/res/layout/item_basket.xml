@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#602678">
+
+    <ImageView
+        android:id="@+id/imageview_product_basket"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="#ff0" />
+
+    <TextView
+        android:id="@+id/textview_name_basket"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/imageview_product_basket"
+        android:text="rau muong"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_plus_basket"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textview_name_basket"
+        android:layout_toRightOf="@+id/imageview_product_basket"
+        android:background="#D298D8"
+        android:text="+" />
+
+    <Button
+        android:layout_marginStart="39dp"
+        android:id="@+id/button_minus_basket"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textview_name_basket"
+        android:layout_toRightOf="@+id/textview_amount_basket"
+        android:background="#D298D8"
+        android:text="-" />
+
+    <ImageButton
+        android:id="@+id/image_button_delete_basket"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/textview_name_basket"
+
+        android:background="#D298D8"
+        android:src="@drawable/ic_close_black_20dp"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/textview_amount_basket"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/textview_name_basket"
+        android:layout_marginStart="20dp"
+        android:layout_toRightOf="@id/button_plus_basket"
+        android:text="0"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textview_price_basekt"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_buy_later_basket"
+
+        android:layout_toRightOf="@+id/imageview_product_basket"
+
+        android:text="0 vnd"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_buy_this_basket"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textview_amount_basket"
+        android:layout_toRightOf="@+id/imageview_product_basket"
+        android:background="#602678"
+        android:text="buy this"
+
+        />
+
+    <Button
+        android:id="@+id/button_buy_later_basket"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textview_amount_basket"
+        android:layout_toRightOf="@+id/button_buy_this_basket"
+        android:background="#602678"
+        android:text="buy later"
+        android:textSize="12dp"
+        />
+    <View
+        android:layout_below="@id/imageview_product_basket"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#fff"/>
+
+</RelativeLayout>

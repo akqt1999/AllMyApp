@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:text="thon tin hoa don : "
+        android:background="#ff0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Ten Khach Hang : "
+            android:textSize="19dp"/>
+        <EditText
+            android:id="@+id/edt_tenKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="So luong Sach : "
+            android:textSize="19dp"/>
+        <EditText
+            android:id="@+id/edt_soLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+<CheckBox
+    android:layout_marginStart="150dp"
+    android:textSize="19dp"
+    android:text="khach hang la VIP"
+    android:id="@+id/cb_vip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So luong Sach : "
+            android:textSize="19dp"/>
+       <TextView
+           android:id="@+id/tv_thanhTien"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="19dp"
+           android:text="200000"
+           android:textColor="#000"
+           android:gravity="center"
+           android:background="#9FBDDD"
+           />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tt"
+        android:layout_weight="1"
+        android:text="Tinh TT"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tiep"
+        android:layout_weight="1"
+        android:text="Tiep"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_thongKe"
+        android:layout_weight="1"
+        android:text="Thong Ke"
+        android:textAllCaps="false"/>
+</LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Thong tin Thong Ke"
+    android:textSize="19dp"
+    android:textColor="#000"
+    android:background="#ADDCC9"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Tong so KH : "
+            android:textSize="19dp"/>
+        <EditText
+            android:id="@+id/edt_tong_soKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Tong So KH la VIP : "
+            android:textSize="19dp"/>
+        <EditText
+            android:id="@+id/edt_tong_soKH_vip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Tong doanh thu : "
+            android:textSize="19dp" />
+
+        <EditText
+            android:id="@+id/edt_tong_doanh_thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:background="#171AB3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        />
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@+id/imgBtn_close"
+        android:background="#fff"
+        android:src="@drawable/ic_baseline_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

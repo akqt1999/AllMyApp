@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityInfoProduct"
+    android:background="#6E3A61"
+    android:weightSum="100">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <ImageView
+        android:layout_weight="23"
+        android:id="@+id/imageview_product"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:background="#ff0" />
+    <TextView
+        android:id="@+id/textview_name_product_info"
+        android:textColor="#fff"
+        android:text="rau muong"
+        android:textSize="21dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp"
+        />
+<TextView
+    android:layout_weight="5"
+    android:layout_marginTop="10dp"
+    android:text="info product"
+    android:textSize="20dp"
+    android:textColor="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
+    <TextView
+        android:id="@+id/textview_seller"
+        android:textSize="20dp"
+        android:text="seller : cai lon banh"
+        android:layout_width="match_parent"
+        android:textColor="#D2D6AE"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+<TextView
+    android:id="@+id/textview_description_info"
+    android:textColor="#fff"
+    android:textSize="19dp"
+    android:text="san pham nay như lôn"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="46"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14">
+
+        <ImageButton
+            android:layout_above="@id/linear_layout_buy"
+            android:layout_marginStart="3dp"
+            android:id="@+id/imagebutton_plus"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_toRightOf="@+id/textview_amount"
+            android:src="@drawable/ic_exposure_plus_1_black_50dp"
+            tools:ignore="NotSibling"
+            android:background="#750E87"
+            />
+        <TextView
+            android:layout_above="@id/linear_layout_buy"
+            android:textColor="#ff0"
+            android:gravity="center"
+            android:textSize="19dp"
+            android:text="31"
+            android:background="@drawable/line_amount"
+            android:layout_toRightOf="@id/imagebutton_minus"
+            android:id="@+id/textview_amount"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:ems="10"
+             />
+
+        <ImageButton
+            android:layout_above="@id/linear_layout_buy"
+            android:id="@+id/imagebutton_minus"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:src="@drawable/ic_indeterminate_check_box_black_50dp"
+            android:background="#750E87"
+            />
+
+
+        <TextView
+            android:layout_above="@id/linear_layout_buy"
+            android:gravity="right"
+            android:layout_marginStart="8dp"
+            android:layout_toRightOf="@id/imagebutton_plus"
+            android:id="@+id/textview_price_info"
+            android:textColor="#ff0"
+            android:text="30000 vnd"
+            android:textSize="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:id="@+id/linear_layout_buy"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true">
+    <Button
+        android:layout_weight="1"
+        android:background="#750E87"
+        android:text="add basket"
+        android:id="@+id/button_add_basket"
+        android:layout_width="110dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_weight="1"
+        android:background="#874A91"
+        android:text="buy now"
+        android:id="@+id/button_buy_now"
+        android:layout_width="110dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

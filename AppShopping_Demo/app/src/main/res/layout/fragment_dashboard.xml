@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC76D6">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toobar_dash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/scrollview_fragment_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_sell_your_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/custom_button_dash"
+                    android:text="sell your product" />
+
+                <Button
+                    android:id="@+id/button_your_store"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/custom_button_dash"
+                    android:text="your store" />
+
+                <Button
+                    android:id="@+id/button_confirmation"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/custom_button_dash"
+                    android:text="order confirmation from buyer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_your_oder"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/custom_button_dash"
+                    android:text="your oder" />
+
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/custom_button_dash"
+                    android:text="login" />
+
+                <Button
+                    android:id="@+id/button_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/custom_button_dash"
+                    android:text="logout" />
+
+                <TextView
+                    android:id="@+id/textview_name_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:text="not logined in"
+                    android:textColor="#000"
+                    android:background="#B885CA"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

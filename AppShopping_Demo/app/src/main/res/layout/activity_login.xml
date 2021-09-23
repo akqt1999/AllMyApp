@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7B4E6"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="59dp"
+        android:text="log in"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edittext_name_user"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="name user" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <EditText
+            android:id="@+id/edittex_password"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="18"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageButton
+                android:id="@+id/image_button_hide_password"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="19dp"
+                android:background="#CEA2ED"
+                android:src="@drawable/ic_hide_password" />
+
+            <ImageButton
+                android:id="@+id/image_button_show_password"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="19dp"
+                android:background="#CEA2ED"
+                android:src="@drawable/ic_show_password" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:text="signup" />
+
+</LinearLayout>

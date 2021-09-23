@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutHn"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Switch
+        android:id="@+id/switchHn"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Change Background" />
+</LinearLayout>

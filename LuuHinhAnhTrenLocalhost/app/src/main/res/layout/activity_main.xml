@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imvHinh"
+        android:src="@drawable/ic_android_black_100dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+<Button
+    android:textSize="39dp"
+    android:text="choose"
+    android:onClick="buttonOk"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    tools:ignore="OnClick" />
+    <Button
+        android:textSize="39dp"
+        android:text="save database"
+        android:onClick="buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:textSize="39dp"
+        android:text="show image"
+        android:onClick="buttonShowImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

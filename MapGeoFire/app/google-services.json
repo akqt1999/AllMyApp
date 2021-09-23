@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1086878907585",
+    "firebase_url": "https://geofire-3d512.firebaseio.com",
+    "project_id": "geofire-3d512",
+    "storage_bucket": "geofire-3d512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086878907585:android:0ebb4090c2a70b31b8e840",
+        "android_client_info": {
+          "package_name": "etn.app.danghoc.mapgeofire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086878907585-5d3iddqj9f2qt3gqur0bqjg80jme9pti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "etn.app.danghoc.mapgeofire",
+            "certificate_hash": "fd33fe245bb2ee39d12c2dce03cba24dba048537"
+          }
+        },
+        {
+          "client_id": "1086878907585-tgg9i1tmk9u6ta0souu119jkij0u2a5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU9dqZf2jzf7jnLgr3-krOET8GnbFtL0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086878907585-tgg9i1tmk9u6ta0souu119jkij0u2a5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

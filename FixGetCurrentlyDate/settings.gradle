@@ -1,0 +1,2 @@
+rootProject.name = "FixGetCurrentlyDate"
+include ':app'

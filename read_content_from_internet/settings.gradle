@@ -1,0 +1,2 @@
+rootProject.name='read_content_from_internet'
+include ':app'

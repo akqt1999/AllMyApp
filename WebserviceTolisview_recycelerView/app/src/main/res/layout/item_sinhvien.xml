@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:typeface="sans"
+    android:id="@+id/text_view_name"
+    android:textColor="#152FD1"
+    android:text="nguyen van a"
+    android:textSize="20dp"
+    android:layout_width="300dp"
+    android:layout_height="40dp"/>
+    <TextView
+
+        android:textColor="#8F8F05"
+        android:textSize="20dp"
+        android:layout_below="@id/text_view_name"
+
+        android:id="@+id/text_view_birth"
+        android:text="nam sinh : 2000"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:textColor="#262B29"
+        android:textSize="20dp"
+        android:text="da nang"
+        android:layout_below="@id/text_view_name"
+        android:id="@+id/text_view_address"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton_edit"
+        android:layout_alignParentRight="true"
+        android:background="#fff"
+        android:src="@drawable/ic_edit_black_40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+android:layout_toLeftOf="@id/imagebutton_edit"
+        android:background="#fff"
+        android:id="@+id/imagebutton_delete"
+        android:src="@drawable/ic_delete_black_40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<View
+    android:background="#474742"
+    android:layout_below="@id/text_view_birth"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"/>
+</RelativeLayout>

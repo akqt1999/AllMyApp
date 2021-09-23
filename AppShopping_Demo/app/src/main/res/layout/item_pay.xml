@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/custom_edit_text_pay">
+    <TextView
+        android:id="@+id/textview_name_pay"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="spinach"
+        android:textSize="23dp"/>
+    <TextView
+        android:id="@+id/textview_name_store_pay"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ten cua hang"
+        android:textSize="23dp"
+        />
+    <TextView
+        android:id="@+id/textview_price_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="300.000 vnd"
+        android:textSize="23dp"
+        />
+    <TextView
+        android:id="@+id/textview_amount_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="so luong : 10"
+        android:textSize="23dp"
+        />
+
+</LinearLayout>

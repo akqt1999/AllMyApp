@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0">
+
+<ScrollView
+    android:layout_above="@id/linear_layout_pay"
+    android:id="@+id/scroollview"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CEBDE3"
+        android:orientation="vertical"
+        tools:context=".ActivityPay">
+
+    <EditText
+        android:id="@+id/edittext_address_pay"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/custom_edit_text_pay"
+        android:gravity="start"
+        android:hint="enter your address"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edittext_note"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/custom_edit_text_pay"
+        android:gravity="start"
+        android:hint="enter note product"
+        android:textSize="18dp" />
+    <EditText
+        android:id="@+id/edittext_number_phone"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/custom_edit_text_pay"
+        android:gravity="start"
+        android:hint="enter your number"
+        android:textSize="18dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3C5CE"
+        android:text="hinh thức giao hàng"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/textview_select_pay"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="#DCDC4E"
+        android:text="thanh toán khi nhận hàng"
+        android:textSize="26dp" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview_product_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </LinearLayout>
+</ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_pay"
+            android:background="#fff"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/textview_total_pay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="#F1A784"
+                android:gravity="center"
+                android:text="100000vnd"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/button_pay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#E3CAC2"
+                android:text="pay"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

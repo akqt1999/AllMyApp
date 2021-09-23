@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="25"
+    tools:context=".ActivityBasket">
+    <include
+        android:id="@+id/toolbar_basket"
+        layout="@layout/toolbar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview_products_basket"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="23"
+        android:background="#D095EA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+       <TextView
+           android:textColor="#000"
+           android:background="#E8E3EC"
+           android:id="@+id/textview_total_money_basket"
+           android:textSize="20dp"
+           android:text="total money :\n 300000"
+           android:layout_weight="3"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"/>
+
+
+        <Button
+            android:background="#CFC4DF"
+            android:textSize="20dp"
+            android:text="pay all"
+            android:id="@+id/button_pay_all_basket"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+</LinearLayout>

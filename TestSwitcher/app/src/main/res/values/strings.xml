@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestSwitcher</string>
+    <string name="continue_text">continue</string>
+</resources>

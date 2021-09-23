@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_splash"
+    tools:context=".ActivitySplash">
+
+    <TextView
+        android:id="@+id/txtNameApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/name_app_bg"
+        android:textColor="@color/purble"
+        android:textSize="39dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNameApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:outlineSpotShadowColor="#ff0"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/login"
+        android:visibility="invisible"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/register"
+        app:cornerRadius="200dp"
+        android:visibility="invisible"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+
+</RelativeLayout>
+
+

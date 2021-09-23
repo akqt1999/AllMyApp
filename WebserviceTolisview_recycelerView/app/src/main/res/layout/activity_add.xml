@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAdd"
+    android:orientation="vertical">
+    <EditText
+        android:layout_marginTop="59dp"
+        android:background="@drawable/custom_edit_text"
+        android:layout_gravity="center"
+        android:id="@+id/edit_text_ten"
+        android:textSize="20dp"
+        android:hint="nhap ten ..."
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:background="@drawable/custom_edit_text"
+        android:layout_marginTop="9dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/edit_text_namsinh"
+        android:textSize="20dp"
+        android:hint="nhap nam sinh ..."
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:background="@drawable/custom_edit_text"
+        android:layout_marginTop="9dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/edit_text_diachi"
+        android:textSize="20dp"
+        android:hint="nhap dia chi ..."
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <LinearLayout
+
+        android:layout_marginTop="39dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:onClick="buttonOk"
+          android:layout_marginLeft="40dp"
+            android:id="@+id/button_ok"
+            android:text="ok"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            tools:ignore="OnClick" />
+        <Button
+            android:onClick="buttonCancel"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/button_cancel"
+            android:text="cancel"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+</LinearLayout>

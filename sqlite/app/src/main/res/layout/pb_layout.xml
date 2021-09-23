@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+<LinearLayout
+    android:layout_weight="7"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:background="#3D3A3A"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/textView_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+
+    <TextView
+        android:background="#3D3A3A"
+        android:textColor="#fff"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:id="@+id/textView_number_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0843839475" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_delete"
+            android:text="x"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_marginTop="0dp"
+            android:id="@+id/button_update"
+            android:text="sua"
+android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

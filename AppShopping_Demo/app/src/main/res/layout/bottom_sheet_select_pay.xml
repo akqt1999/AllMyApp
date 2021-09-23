@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#C591E1">
+
+    <Button
+        android:id="@+id/button_cash_pay_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edit_text_pay"
+        android:text="thanh toán  khi nhận hàng"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button_pay_credit_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edit_text_pay"
+        android:text="thanh toán thẻ tín dụng"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button_cancel_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edit_text_pay"
+        android:text="cancel"
+        android:textSize="28dp"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>

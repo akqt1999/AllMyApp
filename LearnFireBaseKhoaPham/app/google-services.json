@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "870352765867",
+    "firebase_url": "https://hockhoaphamfirebase.firebaseio.com",
+    "project_id": "hockhoaphamfirebase",
+    "storage_bucket": "hockhoaphamfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870352765867:android:f95f8e74c3681b3f0e08ee",
+        "android_client_info": {
+          "package_name": "etn.app.danghoc.learnfirebasekhoapham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870352765867-nj2ha9r62pml6vk2b8pbu9a2e92dtjp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkDrQsEiOVK0dK3kE8hEfvVjAkvE6EvAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870352765867-nj2ha9r62pml6vk2b8pbu9a2e92dtjp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

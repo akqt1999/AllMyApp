@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LikeUberRider</string>
+    <string name="continue_text">Continue</string>
+    <string name="phone">Number phone</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="register_text">Let\'s start with creating your account</string>
+    <string name="title_activity_home">ActivityHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nguyen Xan Tir</string>
+    <string name="nav_header_subtitle">08999999999</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_map">Map</string>
+    <string name="diver_not_found">Driver not found</string>
+    <string name="not_found_key">Not found driver</string>
+    <string name="welcome">Hello</string>
+    <string name="choo_and_save_place">Choose and save place</string>
+    <string name="where_to">Where to?</string>
+    <string name="city_name_empty">City name is Empty</string>
+</resources>

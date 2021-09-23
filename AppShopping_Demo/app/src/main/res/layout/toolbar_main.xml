@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D5BBE8">
+
+    <ImageButton
+        android:id="@+id/imagebutton_basket"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#D5BBE8"
+        android:src="@drawable/icons_basket_25" />
+
+</androidx.appcompat.widget.Toolbar>

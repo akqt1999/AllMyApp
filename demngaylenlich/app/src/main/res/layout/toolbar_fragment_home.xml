@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_splash">
+
+    <TextView
+        android:id="@+id/txtNameApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E note"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:background="#0000"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="#0000"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:background="#0000"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:visibility="invisible" />
+
+</androidx.appcompat.widget.Toolbar>

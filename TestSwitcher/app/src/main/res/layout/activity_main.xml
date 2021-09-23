@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_baseline_location_off_24"/>
+    <com.bitvale.switcher.SwitcherX
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.bitvale.switcher.SwitcherC
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/stickyswitch"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        app:ss_animationDuration="600"
+        app:ss_animationType="line"
+        app:ss_iconPadding="9dp"
+        app:ss_iconSize="19dp"
+        app:ss_leftIcon="@drawable/ic_baseline_location_on_24"
+        app:ss_leftText="locationon"
+        app:ss_rightText="locationoff"
+        app:ss_rightIcon="@drawable/ic_baseline_location_off_24"
+        app:ss_sliderBackgroundColor="@color/sliderBackGround"
+        app:ss_switchColor="@color/switchColor"
+        app:ss_textVisibility="invisible" />
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="19dp"
+        android:text="@string/continue_text"
+        style="@style/Widget.MaterialComponents.Button"
+        app:rippleColor="@color/switchColor"
+        android:textSize="20sp"
+        app:backgroundTint="#000"
+        app:cornerRadius="19dp" />
+</LinearLayout>
+
+
+
+
+
+

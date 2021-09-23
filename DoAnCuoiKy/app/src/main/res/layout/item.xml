@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<TextView
+    android:id="@+id/txtNumber"
+    android:text="30904"
+    android:textSize="19dp"
+    android:textStyle="bold"
+    android:textColor="#0B37D5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/txtNumber"
+        android:id="@+id/txtTitle"
+        android:textSize="19dp"
+        android:text="yeu em bang ca trai tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#0000"
+        android:id="@+id/btnLike"
+        android:src="@drawable/love"
+        />
+<ImageButton
+    android:layout_alignParentRight="true"
+    android:background="#0000"
+    android:id="@+id/btnUnLike"
+    android:src="@drawable/unlike"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</RelativeLayout>

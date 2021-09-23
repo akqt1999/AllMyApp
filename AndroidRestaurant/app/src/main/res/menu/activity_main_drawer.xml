@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group >
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/ic_baseline_restaurant_24"
+            android:title="nearby" />
+    </group>
+
+    <group >
+        <item
+            android:id="@+id/nav_order_history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="Order History" />
+    </group>
+
+    <group >
+        <item
+            android:id="@+id/nav_update_info"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Update Info" />
+    </group>
+
+    <group >
+        <item
+            android:id="@+id/nav_sign_out11"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="sign out" />
+    </group>
+
+</menu>

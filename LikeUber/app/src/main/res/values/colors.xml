@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundMain">#9C2590</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="btnLogin">#2E0EDF</color>
+    <color name="rippleColor">#E3E319</color>
+    <color name="backgound_sign_in">#D566C2</color>
+    <color name="bg_nav">#494645</color>
+</resources>

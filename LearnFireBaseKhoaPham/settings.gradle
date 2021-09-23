@@ -1,0 +1,2 @@
+rootProject.name='LearnFireBaseKhoaPham'
+include ':app'

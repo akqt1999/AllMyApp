@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#674175"
+    >
+    <ImageButton
+        android:id="@+id/image_button_back"
+        android:background="#674175"
+        android:src="@drawable/ic_arrow_back_orange_50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_title_tool_bar"
+        android:text="mmmmmmmooo12..."
+        android:layout_marginTop="9dp"
+        android:textSize="26dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <ImageButton
+        android:id="@+id/imagebutton_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#674175"
+        android:src="@drawable/ic_delete_black_50dp" />
+
+
+</androidx.appcompat.widget.Toolbar>

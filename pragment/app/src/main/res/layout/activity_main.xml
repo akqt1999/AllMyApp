@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+
+        android:id="@+id/button_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addFragment"
+        android:text="a"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addFragment"
+        android:text="b"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button_remove_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="removeAll"
+        android:text="remove"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#269F22"
+        android:hint="name"
+        android:textColor="#70F361" />
+
+    <EditText
+        android:id="@+id/edittext_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A5CCA4"
+        android:hint="number"
+        android:textColor="#70F361" />
+
+    <Button
+        android:onClick="buttonAdd"
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add "
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+
+    <Button
+        android:onClick="popA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pop a"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+    <Button
+        android:onClick="popB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pop b"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/edt"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtNameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_user"
+        android:backgroundTint="@color/white"
+
+
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/progressBar"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/edt"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/progressBar"
+        >
+        <Button
+            android:backgroundTint="@color/red"
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnCancel"
+
+            />
+        <Button
+            android:textColor="@color/black"
+            android:backgroundTint="@color/bg_btn_choose"
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnLogin"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+

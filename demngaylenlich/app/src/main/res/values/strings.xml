@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">demngaylenlich</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="content">hom nay toi buon qua</string>
+    <string name="dayStart">day start : 29-12-2020</string>
+    <string name="dayEnd">day success : 30-11-2020</string>
+    <string name="process">2 day left</string>
+    <string name="name_app_bg">E  N O T E</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name_user">name user</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnLogin">Login</string>
+    <string name="choose_day_success">Choose day success ...</string>
+    <string name="hint_edt_write_note">write a note ...</string>
+    <string name="btnChoose">Choose</string>
+    <string name="title_create_note">Create new note</string>
+    <string name="logout">Logout</string>
+</resources>

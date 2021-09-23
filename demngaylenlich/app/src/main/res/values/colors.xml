@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="bg_splash">#BFB3C9</color>
+    <color name="purble">#550079</color>
+    <color name="bg_btn">#BAC6C7</color>
+    <color name="bg_edt_write_note">#F0E2F3</color>
+    <color name="red">#E71809</color>
+    <color name="bg_btn_choose">#C2C2E2</color>
+    <color name="pink">#E241C7</color>
+</resources>

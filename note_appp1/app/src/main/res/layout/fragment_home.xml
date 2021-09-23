@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#533D4F">
+
+
+    <include
+        android:id="@+id/tool_bar_main"
+        layout="@layout/toolbar" />
+
+    <ListView
+        android:id="@+id/listview_note"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/tool_bar_main"
+        android:layout_weight="20" />
+
+
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/ic_note_add_black_60dp"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:id="@+id/textview_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="299dp"
+        android:gravity="center"
+        android:text="Empty note please add notes "
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806944394778",
+    "firebase_url": "https://demngaylenlich.firebaseio.com",
+    "project_id": "demngaylenlich",
+    "storage_bucket": "demngaylenlich.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806944394778:android:efba91bc79790c678c8ba3",
+        "android_client_info": {
+          "package_name": "etn.app.danghoc.demngaylenlich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806944394778-6mmc6deb2s1tg90eo0ct76r9p018rg88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "etn.app.danghoc.demngaylenlich",
+            "certificate_hash": "fd33fe245bb2ee39d12c2dce03cba24dba048537"
+          }
+        },
+        {
+          "client_id": "806944394778-3prg59h8o580lvuaplkgvco5r0iud6cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKDSZQWAvPBosFN6jeZBfHHtlNKxJACTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806944394778-3prg59h8o580lvuaplkgvco5r0iud6cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

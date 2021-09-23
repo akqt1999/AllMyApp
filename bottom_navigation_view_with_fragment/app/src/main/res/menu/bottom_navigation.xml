@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_fragment_home"
+        android:icon="@drawable/ic_home_read_24dp"
+        android:title="home" />
+    <item
+        android:id="@+id/nav_fragment_map"
+        android:icon="@drawable/ic_map_yellow_24dp"
+        android:title="map" />
+    <item
+        android:id="@+id/nav_framgment_moto"
+        android:icon="@drawable/ic_motorcycle_yellow_24dp"
+        android:title="moto" />
+</menu>

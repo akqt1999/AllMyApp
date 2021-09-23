@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_img"
+    android:background="#DAB0B0"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+
+        />
+    <TextView
+        android:id="@+id/textview_info_img"
+        android:background="#DCE0A6"
+        android:layout_width="160dp"
+        android:layout_height="29dp"/>
+
+</LinearLayout>

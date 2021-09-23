@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D8BBDD"
+    android:elevation="4dp"
+    >
+
+    <ImageButton
+        android:id="@+id/imageButton_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D8BBDD"
+        android:src="@drawable/ic_arrow_back_black_33dp" />
+
+    <TextView
+        android:id="@+id/textview_title_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="hello on ket"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+    <ImageButton
+        android:id="@+id/imagebutton_basket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:background="#D8BBDD"
+        android:src="@drawable/ic_shopping_basket_black" />
+</androidx.appcompat.widget.Toolbar>
